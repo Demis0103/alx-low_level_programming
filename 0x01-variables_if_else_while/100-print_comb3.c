@@ -10,10 +10,11 @@
  */
 int main(void)
 {
-	int d,e;
-	
+	int d, e;
+
 	for (d = 0; d <= 9; d++)
 {
+
 	for (e = 1; e <= 9; e++);
 {
 	if (e > d)
