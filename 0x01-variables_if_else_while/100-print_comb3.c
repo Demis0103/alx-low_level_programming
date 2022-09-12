@@ -5,28 +5,27 @@
  *  *  *  * main - print if the number is postive, zero, or negative
  *   *   *   *
  *    *    *    * Description: using the main function
- *     * this program prints "programming is postive, zero, or negative"
+ **     *     * this program prints "programming is postive, zero, or negative"
  *      *      *      * Return: 0
  */
 int main(void)
 {
-	int d, e;
+	int i, j;
 
-	for (d = 0; d <= 9; d++)
-		putchar(d + '0');
+	for (i = 0; i <= 9; i++)
 {
-
-	if (e > d)
-	for (e = 1; e <= 9; e++);
-	putchar(e + '0');
+	for (j = 1; j <= 9; j++)
 {
-
-	if (d != 8)
+	if (j > i)
+{
+	putchar(i + '0');	
+	putchar(j + '0');
+	if (i !=8)
 {
 	putchar(',');
 	putchar(' ');
 }
-
+}
 }
 }
 	putchar('\n');
