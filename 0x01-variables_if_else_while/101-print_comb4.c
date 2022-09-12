@@ -18,13 +18,12 @@ int i, j, k;
 {
 	for (k = 2; k <= 9; k++)
 {
-	if (j > i)
-	if (k > j)
+	if (j > i && k > j)
 {
 	putchar(i + '0');
 	putchar(j + '0');
 	putchar(k + '0');
-	if (i != 8)
+	if (i != 7)
 {
 	putchar(',');
 	putchar(' ');
