@@ -7,7 +7,7 @@
  *    *    *    * Description: using the main function
  *     *  * this program prints "programming is postive, zero, or negative"
  *      *      *      * Return: 0
- *       */
+ */
 int main(void)
 {
 int i, j;
@@ -16,7 +16,7 @@ int i, j;
 {
 	for (j = 0; j < 100; j++)
 {
-		
+
 	if (j > i)
 {
 	putchar((i / 10) + '0');
