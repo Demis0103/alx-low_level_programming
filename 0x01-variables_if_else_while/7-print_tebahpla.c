@@ -10,7 +10,7 @@
  */
 int main(void)
 {
-	int low;
+	char low;
 
 	for (low = 'z'; low >= 'a'; low--)
 	putchar(low);
