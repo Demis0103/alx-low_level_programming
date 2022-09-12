@@ -13,20 +13,20 @@ int main(void)
 	int d, e;
 
 	for (d = 0; d <= 9; d++)
+		putchar(d + '0');
 {
 
-	for (e = 1; e <= 9; e++);
-{
 	if (e > d)
-{
-	putchar(d + '0');
+	for (e = 1; e <= 9; e++);
 	putchar(e + '0');
+{
+
 	if (d != 8)
 {
 	putchar(',');
 	putchar(' ');
 }
-}
+
 }
 }
 	putchar('\n');
