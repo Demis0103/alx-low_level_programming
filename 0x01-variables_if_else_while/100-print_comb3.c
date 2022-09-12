@@ -10,15 +10,22 @@
  */
 int main(void)
 {
-	int d;
+	int d,e;
 	
-	for (d = 0; d < 100; d++)
+	for (d = 0; d <= 9; d++)
 {
-	putchar((d/10) + '0');
-	if (d != 99)
+	for (e = 1; e <= 9; e++);
+{
+	if (e > d)
+{
+	putchar(i + '0');
+	putchar(j + '0');
+	if (i != 8)
 {
 	putchar(',');
-	putchar(' ');
+	putchar(' ')
+}
+}
 }
 }
 	putchar('\n');
