@@ -4,7 +4,7 @@
 * @n: parameter
 * Return: absolute value of a number
 */
-int print_sign(int n)
+int _abs(int)
 {
 if (n < 0)
 n = -n;
