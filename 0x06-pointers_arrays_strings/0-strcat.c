@@ -1,9 +1,11 @@
 #include <main.h>
 
 /**
- * main - print if the number is postive, zero
- * Description: using the main function
- * this program prints "programming is postive
+ * _strcat - concastenates the string pointed to by @src to
+ * the end of the string pointed to by @dest
+ * @des: string that will be appended
+ * @src: string to be concatenated upon
+ * 
  * Return: retuns poiner to @dest
  */
 char *_strcat(char *dest, char *src)
