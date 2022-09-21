@@ -1,13 +1,15 @@
 #include <main.h>
+
 /**
  * main - print if the number is postive, zero
  * Description: using the main function
  * this program prints "programming is postive
- * Return:0
+ * Return: retuns poiner to @dest
  */
 char *_strcat(char *dest, char *src)
 {
 	int index = 0, dest_len = 0;
+
 	while (dest[index++])
 		dest_len++;
 	for (index = 0; src[index]; index++)
