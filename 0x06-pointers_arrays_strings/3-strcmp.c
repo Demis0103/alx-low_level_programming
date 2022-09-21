@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  *_strcmp - concatenate two strings but add inputted number of byte
