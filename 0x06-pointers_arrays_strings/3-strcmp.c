@@ -1,14 +1,12 @@
 #include "main.h"
-
 /**
- *_strcmp - concatenate two strings but add inputted number of byte
- * 
- * 
- * 
+ *_strcmp - concatenate two strings but add inputted
+ *@s1: first string
+ *@s2: sdcond string
  *Return:
  *	returns zero if s1 == s2
  *	returns negative number if s1 < s2
- * 	returns positive number if s1 > s2
+ *	returns positive number if s1 > s2
  */
 
 int _strcmp(char *s1, char *s2)
