@@ -1,6 +1,7 @@
-#include "main.h"
+/#include "main.h"
+
 /**
- *_strcmp - concatenate two strings but add inputted
+ *_strcmp - function which compare two strings
  *@s1: first string
  *@s2: sdcond string
  *Return:
