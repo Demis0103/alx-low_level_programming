@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * _strcat - concastenates the string pointed to by @src to
+ * _strcat - concastenates the string pointed to
  * the end of the string pointed to by @dest
- * @des: string that will be appended
+ * @dest: string that will be appended
  * @src: string to be concatenated upon
- * 
  * Return: retuns poiner to @dest
  */
 char *_strcat(char *dest, char *src)
