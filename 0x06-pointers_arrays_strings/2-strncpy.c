@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- *string_toupper - changes all lowercase letters to uppercase
- *@str: string to be changed
+ *_strncpy - changes all lowercase letters
+ *@dest: string to be changed
+ *@src: max number of byte copied
  *@n: max number of byte copied
  *Return: returns
  */
