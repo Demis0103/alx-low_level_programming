@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * is_prime_number - Checks if a number is div
-*@n: number
+* @n: number
 * * Return: 1 if n is prime. 0 otherwise
 */
 int is_prime_number(int n)
@@ -12,7 +12,7 @@ return (0);
 return (is_prime(n, start));
 }
 /**
-* is_prime - Checks if a number is 
+* is_prime - Checks if a number is
 * @start: The number to be che* * *
 * Return: 1 if n is prime. 0 otherwise
 */
