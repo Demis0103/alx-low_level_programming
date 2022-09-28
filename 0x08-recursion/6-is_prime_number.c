@@ -12,7 +12,8 @@ return (0);
 return (is_prime(n, start));
 }
 /**
-* is_prime - Checks if a number is divisible. * @start: The number to be che* * *
+* is_prime - Checks if a number is 
+* @start: The number to be che* * *
 * Return: 1 if n is prime. 0 otherwise
 */
 int is_prime(int n, int start)
