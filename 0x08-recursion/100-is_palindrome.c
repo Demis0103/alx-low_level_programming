@@ -5,7 +5,7 @@
 * * *
 * Return: The length of the string.
 */
-int is_palindrome(char *s);
+int is_palindrome(char *s)
 {
 int flag = 1;
 
