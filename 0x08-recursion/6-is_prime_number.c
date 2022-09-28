@@ -13,6 +13,7 @@ return (is_prime(n, start));
 }
 /**
 * is_prime - Checks if a number is
+* @n: the number used
 * @start: The number to be che* * *
 * Return: 1 if n is prime. 0 otherwise
 */
