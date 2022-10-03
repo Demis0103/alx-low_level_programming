@@ -74,6 +74,11 @@ char **strtow(char *str)
 		split[j] = (char *)malloc(sizeof(char) * size + 1);
 		if (split[j] != NULL)
 		{
+			while (temp < size)
+			{
+				split[j][temp] = str[(i - size) + temp];
+				temp++;
+	}
 			split[j][temp] = '\0';
 			size = temp = 0;
 			j++;
