@@ -8,13 +8,13 @@
  * Return:pointer to the array
  */
 
-int ** alloc_grid(int width, int height)
+int **alloc_grid(int width, int height)
 {
-	int **array:
+	int array;
 	int i = 0, j;
 
 	if (width == 0 || height == 0)
-	return (NULL):
+	return (NULL);
 	array = (int **) malloc(sizeof(int *) * height);
 	if (array[i] != NULL)
 	{
