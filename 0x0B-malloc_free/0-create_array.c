@@ -18,7 +18,7 @@ char *create_array(unsigned int size, char c)
 
 	if (array == NULL)
 		return(NULL);
-	for (indez = 0 indez < size; index++)
+	for (index = 0 index < size; index++)
 		array[index] = c;
 	return (array);
 }
