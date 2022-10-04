@@ -25,15 +25,15 @@ int **alloc_grid(int width, int height)
 			if (array[i] == NULL)
 		{
 			for (; i >= 0; i--)
-				free(array[x]);
+				free(array[i]);
 			free(array);
 			return (NULL);
 		}
 	}
 		for (i = 0; i < height; i++)
 		{
-			for (j = 0; j < width; y++)
-				array[x][y] = 0;
+			for (j = 0; j < width; j++)
+				array[i][j] = 0;
 		}
 	return (array);
 }
