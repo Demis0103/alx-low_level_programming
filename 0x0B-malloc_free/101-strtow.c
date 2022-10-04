@@ -1,4 +1,4 @@
-#include "main.h"
+trtow.cinclude "main.h"
 /**
  * len - retuns length
  * @str: string to be coiunted
@@ -97,4 +97,5 @@ char **strtow(char *str)
 	}
 	else
 		return (NULL);
+	return(split);
 }
