@@ -3,7 +3,7 @@
 
 /**
  * _calloc - alloactes nenory
- * #nmemb: bummber of elements
+ * @nmemb: bummber of elements
  * @size: size in bytes
  *
  * Return: void pointer
