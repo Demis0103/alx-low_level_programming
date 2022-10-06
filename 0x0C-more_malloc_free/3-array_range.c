@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 
-/*
+/**
  * array_range - creates an array of interges.
  * @min: first integre
  * @max: last integer
@@ -11,7 +11,7 @@
 
 int *array_range(int min, int max)
 {
-	int *arr, i = 0,t = min;
+	int *arr, i = 0, t = min;
 
 	if (min > max)
 	return (0);
